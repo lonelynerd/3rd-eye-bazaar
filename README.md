@@ -1,75 +1,73 @@
-### Projet d'application Web
+### University Projct - Web design
 3rd Eye Bazaar
 ===
-Projet de :
-- Théo SALLES
-- Louis DUMONTIER
 
 ## Important
 
-Suite à des problèmes concernant la création d'une base de données sur le serveur de la Fac, nous avons été contraint d'utiliser une base locale à nos PCs respectifs. 
+Since this website isn't meant to work online, you'll have to test it locally. And part of this process is to create a database to store info. Don't worry tho, everything will be explained. 
 
-Ainsi, pour vérifier le bon fonctionnement de ce site, vous devez créer vous-même la base. 
+### Step 1 :
+Using any basic DBMS ( for example phpMyAdmin ), create a new database. It's name, user name and password is left to you to choose. **Keep these somewhere, we'll use them later !**
 
-### Etape 1 :
-- A travers l'interface de votre choix, créez une base de données. Le nom de la base, le nom d'utilisateur ainsi que le mot de passe doit être choisi par vos soins. **Gardez-ces valeurs de côté, ils seront utiles plus tard !**
+### Step 2 :
+With the **.sql** files stored in the **db** folder, you can import the configs ( including the **product** and **account** tables ) in your newly crteated database. According to your DBMS, the option to import configs to a database may vary. But in most cases, two options are available : 
 
-### Etape 2 :
-- A l'aide des fichiers **.sql** présents dans le dossier **db**, veuillez importer la configuration des deux tables **product** et **account**. Selon l'interface choisie, vous devrez soit choisir l'option **Importer...** et choisir le(s) fichier(s) **.sql**, soit ouvrir les deux fichiers avec un logiciel de traitement de texte et copier-coller leurs contenus dans un invite SQL.
+- find the **Import from file** button and choose the **.sql** files
+- copy-pasting the contents of the two **.sql** files into a SQL query field
 
-### Etape 3 :
+### Step 3 :
 
-- Dans le fichier **database.php**, veuillez renseigner dans l'ordre :
-    - **DBURL** -> L'adresse d'accès à la base de données. Si vous utilisez **LAMP** ou **XAMPP** par exemple, l'adresse sera **"localhost"**
-    - **DBUSR** -> Le nom d'utilisateur
-    - **DBPWD** -> Le mot de passe
-    - **DBNAM** -> Le nom de la base de données
+- In the **database.php**, replace the dummy **[empty] value by :
+    - **DBURL** -> The URL of the database. If you're using either **LAMP** or **XAMPP** for example, the URL will be **"localhost"**
+    - **DBUSR** -> A user name, created with the DBMS
+    - **DBPWD** -> A password, also created with the DBMS
+    - **DBNAM** -> The database's name
 ```php
 
 <?php
 
-define("DBURL","[veuillez compléter la donnée]");
+define("DBURL","[empty]");
 
-define("DBUSR","[veuillez compléter la donnée]");
+define("DBUSR","[empty]");
 
-define("DBPWD","[veuillez compléter la donnée]");
+define("DBPWD","[empty]");
 
-define("DBNAM","[veuillez compléter la donnée]");
+define("DBNAM","[empty]");
 
 ?>
 
 ```
-- Si une de ces valeur n'est pas renseignée, une erreur s'affichera dés l'ouverture du fichier **index.php**.
+If any of these variables isn't defined, an error will be shown when connecting to the **index.php** webpage.
 
-## A propos du .htaccess
+## Regarding the .htaccess
 
-- En cas d'erreur 404, 403 ou 500, une page personnalisée est censé être affichée, ces pages étant respectivement **404.php**, **403.php**, **500.php**. Si une page blanche s'affiche en place et lieu du fichier erreur, veuillez éditer le fichier **.htaccess** avec l'adresse **DIRECTE** vers les fichiers susnomés.
+In case of an error 404, 403 or 500, a custom page shoud be shown, these pages being respectively **404.php**, **403.php**, **500.php**. If a blank page is shown instead, please edit the **.htaccess** file with a **DIRECT** link to each of the aforementioned pages.
 
-## Arborescence du projet
+## Project's file tree
 
 ```
 
 3rdEyeBazaar
 │   README.md
-│   .htaccess -> fichier gérant la page à afficher en cas d'erreur
-|   trash.old -> fichier contenant des versions obselètes de certaines fonctions
+│   .htaccess
+|   trash.old
 |
-└───css -> contient tous les fichiers css des pages php
+└───css -> css pages
 |
-└───ct -> contient les messages envoyés à travers l'outil "Contact Us"
+└───ct -> messages sent from the "Contact Us" page
 |
-└───db -> contient les fichiers de génération de tables pour la base de données
+└───db -> config files for the database
 |
-└───ft -> contient les polices de caractères
+└───ft -> fonts used in the project
 |
-└───im -> contient les images utilisés par le site
+└───im -> images used by the website
 |   |
-|   └───sk -> contient les fichiers vectoriels servant de base pour certaines images du site
+|   └───sk -> sketches used to create some images
 |   |
-|   └───tr -> archive contenant des anciennes versions de certaines images de im
+|   └───tr -> archives and unused images
 |
-└───im-part -> contient les images utilisés par les annonces postés sur le site
+└───im-part -> images uploaded alongside the adds
 |
-└───vd -> contient des vidéos utilisés par le site
+└───vd -> videos used by the website
 
 ```
