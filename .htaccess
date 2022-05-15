@@ -1,0 +1,3 @@
+ErrorDocument 404 /www/3rdEyeBazaar/404.php
+ErrorDocument 403 /www/3rdEyeBazaar/403.php
+ErrorDocument 500 /www/3rdEyeBazaar/500.php

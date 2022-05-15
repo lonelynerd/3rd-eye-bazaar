@@ -1,0 +1,25 @@
+<?php
+  $nom = 'nom du produit';
+  $desc = 'description du produit';
+  $local = 'planete';
+  $categorie = 'food';
+  $state = 'mint';
+  $price = '10';
+
+  echo $nom;
+  echo '</br>';
+  ?>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ChipFox_Fox_Fursuit_2015.jpg/220px-ChipFox_Fox_Fursuit_2015.jpg" alt="furry" />
+  <?php
+  echo '</br>';
+  echo $desc;
+  echo '</br>';
+  echo $local;
+  echo '</br>';
+  echo $categorie;
+  echo '</br>';
+  echo $state;
+  echo '</br>';
+  echo $price;
+  echo '</br>';
+  ?>

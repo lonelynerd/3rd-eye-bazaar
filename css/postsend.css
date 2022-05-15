@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Cream;
+    src: url("../ft/Cream.ttf");
+}
+
+* {
+    font-family: Cream, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    background: url("../im/backgroundmenuD.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment:fixed;
+    margin: 0px;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: 10px;
+}
+
+.categ {
+    margin-top: 65px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 65px;
+    background-image: url("../im/barD.png");
+    background-size: contain;
+}
+
+.categ div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 20px;
+}
+
+.categ div {
+    display: inline-block;
+    margin: 20px 20px 15px 345px;
+    vertical-align: middle;
+}
+
+.categ div a {
+    color: white;
+    text-decoration: none;
+}
+
+.categ div a:hover {
+    text-decoration: underline;
+}
+
+.categ div a {
+    color: white;
+    text-decoration: none;
+}
+
+.footnote {
+    text-align: center;
+}
+
+.footnote *,
+.footnote *:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footnote *:hover {
+    text-decoration: underline;
+}
+
+.flabel {
+    padding: 30px 30px 0px;
+    text-align: center;
+}
+
+.poutre {
+    display: block;
+    border-left: 1px solid #3a3a3a;
+    height: 250px;
+    margin: 0px 20px;
+}
+
+.window {
+    background: #eef0ff;
+    border-radius: 30px;
+    margin: 5% 15%;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.fsubmit {
+    margin: 25px auto;
+    background-color: #bd66d3;
+    border-radius: 10px;
+    border-style: none;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.fsubmit:hover {
+    background: #ea97ff;
+    border-bottom: solid 5px #d429ff;
+}
+
+.finput {
+    border: none;
+    border-radius: 10px;
+    background-color: #b4c4ff;
+    height: 30px;
+    width: 300px;
+    margin: 12px 0px;
+    font-size: 1em;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.flinput {
+    border: none;
+    border-radius: 10px;
+    background-color: #b4c4ff;
+    height: 150px;
+    width: 300px;
+    margin: 12px 0px;
+    resize: none;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.fchoice {
+    border: none;
+    border-radius: 10px;
+    background-color: #b4c4ff;
+    height: 30px;
+    width: 140px;
+    margin: 12px 3px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.window form>div {
+    display: inline-block;
+}
+
+.leftw {
+    margin: 0px 25px 0px 15px;
+    width: 300px;
+}
+
+.rightw {
+    margin: 0px 15px 0px 25px;
+    width: 300px;
+}
+
+.leftw *,
+.rightw * {
+    text-align: center;
+}
+
+.wimage {
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background-color: #b4c4ff;
+    height: 30px;
+    width: 300px;
+    margin: 12px 0px;
+    font-size: 1em;
+    padding: 5px 0px 0px 0px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.labelim:hover {
+    text-decoration: underline;
+}
+
+.fimage {
+    display: none;
+}
+
+.instruc * {
+    font-size: 0.8225em;
+    text-align: left;
+}
+
+form {
+    text-align: center;
+    margin: 10px 50px;
+}
+
+.error {
+    margin: 5% 15% -4%;
+    padding: 5px;
+    background-color: #f3a5af;
+    /* border: 5px solid white;*/
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.error * {
+    text-align: center;
+    display: block;
+}

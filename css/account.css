@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Cream;
+    src: url("../ft/Cream.ttf");
+}
+
+* {
+    font-family: Cream, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    background: url("../im/backgrounduserD.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.header {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: 10px;
+}
+
+.categ {
+    margin-top: 65px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 65px;
+    background: url("../im/barD.png");
+    background-size: contain;
+    /*linear-gradient(90deg,#c863e8,#006eb1);*/
+}
+
+.categ div {
+    margin: 15px 20px;
+    vertical-align: middle;
+}
+
+.other {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 21.5px 20px;
+}
+
+.firstelem {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 21.5px;
+    margin-bottom: 21.5px;
+    margin-left: 320px;
+    margin-right: 20px;
+}
+
+.categ div select,
+.categ div a {
+    color: white;
+    text-decoration: none;
+}
+
+.categ div a:hover {
+    text-decoration: underline;
+}
+
+.footnote {
+    text-align: center;
+}
+
+.footnote *,
+.footnote *:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footnote *:hover {
+    text-decoration: underline;
+}
+
+.window {
+    background: url("../im/backgrounduserW.png");
+    border: solid 5px white;
+    background-size: cover;
+    margin: 80px 20% 0px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.main {
+    width: 450px;
+    margin: 150px auto 0px;
+    border-radius: 30px;
+    background-color: #969ee7;
+    padding: 2px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.main img {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 285px;
+    text-align: center;
+}
+
+.main h2 {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.button1 *,
+.button2 *,
+.button3 * {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 3px;
+}
+
+.button1 {
+    border-radius: 30px;
+    background-color: #e493bb;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.button2 {
+    border-radius: 30px;
+    background-color: #93c6e4;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.button3 {
+    border-radius: 30px;
+    background-color: #e49393;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.button1:hover {
+    background: #ffb0d8;
+    border-bottom: solid 5px #ff3d9e;
+}
+
+.button2:hover {
+    background: #bae6ff;
+    border-bottom: solid 5px #38b6ff;
+}
+
+.button3:hover {
+    background: #ffbaba;
+    border-bottom: solid 5px #ff2d2d;
+}
+
+.button-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.button-container * {
+    display: inline-block;
+}
+
+.button-container>a {
+    margin: 25px 10px;
+}
+
+.button-container a div p {
+    color: black;
+    text-decoration: none;
+}
+
+.button-container div a:hover {
+    text-decoration: underline;
+}
+
+.firsttime {
+    margin: 20px 20% 0px;
+    border-radius: 30px;
+    padding: 30px;
+    background: #95ffb0;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.firsttime h3 {
+    text-align: center;
+}

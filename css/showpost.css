@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Cream;
+    src: url("../ft/Cream.ttf");
+}
+
+* {
+    font-family: Cream, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    background: url("../im/backgroundmenuD.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment:fixed;
+    margin: 0px;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: 10px;
+}
+
+.categ {
+    margin-top: 65px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 65px;
+    background-image: url("../im/barD.png");
+    background-size: contain;
+}
+
+.categ div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 20px;
+}
+
+.categ div {
+    display: inline-block;
+    margin: 20px 20px 15px 345px;
+    vertical-align: middle;
+}
+
+.categ div a {
+    color: white;
+    text-decoration: none;
+}
+
+.categ div a:hover {
+    text-decoration: underline;
+}
+
+.categ div a {
+    color: white;
+    text-decoration: none;
+}
+
+.footnote {
+    text-align: center;
+}
+
+.footnote *,
+.footnote *:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footnote *:hover {
+    text-decoration: underline;
+}
+
+.window {
+    background: #c9d3ff;
+    background-size: cover;
+    margin: 80px 13% 50px;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.smol {
+    text-transform: uppercase;
+    font-size: smaller;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    color: #00000080;
+}
+
+.pimage {
+    background: #5c7aff;
+    border-radius: 30px;
+    margin: 20px 20px 0px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.pimage>img {
+    background-color: black;
+    border-radius: 30px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.pimage>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.basic {
+    margin: 20px 10px 20px 20px;
+    border-radius: 30px;
+    background: #a1b2ff;
+    padding: 2px 10px;
+    width: 44%;
+    height: 100%;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.title {
+    margin: 20px;
+    min-width: 30%;
+    max-width: 95%;
+}
+
+.title>h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+}
+
+.info>div>p {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.info>* {
+    display: inline-block;
+    align-items: stretch;
+    min-height: 100%;
+}
+
+.contact {
+    margin: 20px 20px 20px 10px;
+    border-radius: 30px;
+    background: #d9a1ff;
+    padding: 2px 10px;
+    width: 44%;
+    min-height: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.desc {
+    background: #adbcff;
+    border-radius: 30px;
+    margin: 20px 20px 0px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.desc>p {
+    width: 100%;
+    ;
+}
+
+.button_c {
+    width: 100%;
+    text-align: center;
+}
+
+.button_c>* {
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+.bcontact *,
+.bdelete * {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.bcontact {
+    border-radius: 30px;
+    background-color: #7faad8;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.bdelete {
+    border-radius: 30px;
+    background-color: #e49393;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.bdelete>form>input,
+.bdelete>form>input:visited {
+    border: none;
+    background: none;
+    font-size: 1em;
+    padding: 0px;
+}
+
+.bcontact a,
+.bcontact a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.bcontact:hover {
+    background: #a1caf7;
+    border-bottom: solid 5px #5aaaff;
+}
+
+.bdelete:hover {
+    background: #f0b6ff;
+    border-bottom: solid 5px #ff5680;
+}

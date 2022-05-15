@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Cream;
+    src: url("../ft/Cream.ttf");
+}
+
+* {
+    font-family: Cream, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    background: url("../im/backgroundmenuD.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.header {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: 10px;
+}
+
+.categ {
+    margin-top: 65px;
+    margin-bottom: 75px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 65px;
+    background: url("../im/barD.png");
+    background-size: contain;
+    /*linear-gradient(90deg,#c863e8,#006eb1);*/
+}
+
+.categ .search-field {
+    vertical-align: middle;
+    margin-left: 320px;
+    margin-right: 0px;
+}
+
+.categ div {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+.signup {
+    color: white;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.search-bar {
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    height: 20px;
+    width: 175px;
+    padding: 7px 0px 7px 23px;
+    outline: 0;
+    background-color: transparent;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.search-button {
+    display: none;
+}
+
+.categ div a * {
+    /*height: 1em;*/
+    display: inline-block;
+}
+
+.categ div select,
+.categ div a {
+    color: white;
+    text-decoration: none;
+}
+
+.categ div select {
+    background-color: #00000000;
+    border: none;
+    font-size: 16px;
+    margin: 0px 20px;
+}
+
+.categ div select:hover,
+.categ div a:hover {
+    text-decoration: underline;
+}
+
+option {
+    color: #202020;
+    background-color: #e9e9ed;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.footnote {
+    margin: 30px 0px 20px;
+    text-align: center;
+}
+
+.footnote *,
+.footnote *:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footnote *:hover {
+    text-decoration: underline;
+}
+
+.cquery {
+    margin: 50px 300px;
+    padding: 10px;
+    background-color: #ebbee3;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.squery {
+    margin: 50px 300px;
+    padding: 10px;
+    background-color: #8ed1e2;
+    box-shadow: 0px 0px 5px #00000040;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.uquery {
+    margin: 50px 300px;
+    padding: 10px;
+    background-color: #9097ff;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.wow {
+    margin: 50px 37.5%;
+    padding: 25px;
+    height: 150px;
+    background-color: #bde1ff;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.wow *{
+    margin: 15px 0px;
+}
+
+.cquery *,
+.squery *,
+.uquery *,
+.delsucc *,
+.delfail * {
+    display: inline-block;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+
+.ad {
+    background: #efc6ff;
+    width: 950px;
+    border-radius: 30px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.ad:hover{
+    background: #f2d2ff;
+    border-bottom: solid 5px #d059ff;
+}
+
+.ad a div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 20px;
+}
+
+.postinfo h2 {
+    color: #9b1d58;
+    text-decoration: none;
+}
+
+.postimage img {
+    border-radius: 30px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.postinfo h3,
+.postinfo p,
+.postinfo h3:visited,
+.postinfo p:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.postinfo h2:visited{
+    color: #9b1d58;
+    text-decoration: none;
+}
+
+.smol {
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.ad a p,
+.ad a h3 {
+    width: 665px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.delsucc {
+    margin: 50px 300px;
+    padding: 10px;
+    background-color: #e9fff7;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.delfail {
+    margin: 50px 300px;
+    padding: 10px;
+    background-color: #ffe0e0;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #00000040;
+}
