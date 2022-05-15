@@ -17,7 +17,7 @@ With the **.sql** files stored in the **db** folder, you can import the configs 
 
 ### Step 3 :
 
-- In the **database.php**, replace the dummy **[empty] value by :
+- In the **database.php**, replace the dummy **[empty]** value by :
     - **DBURL** -> The URL of the database. If you're using either **LAMP** or **XAMPP** for example, the URL will be **"localhost"**
     - **DBUSR** -> A user name, created with the DBMS
     - **DBPWD** -> A password, also created with the DBMS
