@@ -71,3 +71,20 @@ In case of an error 404, 403 or 500, a custom page shoud be shown, these pages b
 └───vd -> videos used by the website
 
 ```
+
+### Random notes
+
+This website was created for an university project, and therefore isn't very secure, unbreakable or functionnal. Plus, since our... \*humm\*... dev team is French, some variable names can be a bit confusing ( eg. **rech** -> recherche -> search ).
+
+### To-do list
+
+- Add a sleep effect in the 403.php page
+- Check if any SQL injection is attempted
+- Remake CSS for mobile format
+- Add an option to :
+    - ...edit an account's information
+    - ...edit an add
+    - ...delete an account and all the data related to that account
+- Edit the separator's shadow
+- Create a category table
+- Remake the logoff procedure ( from GET to POST )
